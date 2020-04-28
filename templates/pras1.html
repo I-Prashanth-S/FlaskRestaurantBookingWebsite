@@ -1,0 +1,392 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Light Theme</title>
+<style>
+body {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	background-color: #FFFFFF;
+	margin: 0;
+}
+/* Container */
+.container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+}
+/* Header */
+header {
+	width: 100%;
+	height: 8%;
+	background-color: #5D5E5D;
+	border-bottom: 1px solid #353635;
+}
+.logo {
+	color: #fff;
+	font-weight: bold;
+	margin-left: auto;
+	letter-spacing: 4px;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 15px;
+	line-height: 2em;
+	font-size: 22px;
+}
+.hero_header {
+	color: #FFFFFF;
+	text-align: center;
+	margin: 0;
+	letter-spacing: 4px;
+}
+/* About Section */
+.text_column {
+	width: 90%;
+	text-align: left;
+	font-weight: lighter;
+	line-height: 25px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #A3A3A3;
+}
+.gallery {
+	clear: both;
+	display: inline-block;
+	width: 100%;
+	background-color: #FFFFFF;
+	/* [disabled]min-width: 400px;
+*/
+	padding-bottom: 35px;
+	padding-top: 0px;
+	margin-top: -5px;
+	margin-bottom: 0px;
+}
+.thumbnail {
+	width: 23%;
+	text-align: center;
+	float: left;
+	margin-top: 35px;
+	background-color: #F8F8F8;
+	padding-bottom: 20px;
+	margin-left: 1%;
+	margin-right: 1%;
+	border-radius: 3px;
+	padding-top: 20px;
+	border-bottom: 4px solid #6DC7D0;
+}
+.gallery .thumbnail h4 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #52BAD5;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.gallery .thumbnail p {
+	margin: 0;
+	color: #B3B3B3;
+	text-align: left;
+	padding-left: 20px;
+}
+/* More info */
+.intro {
+	background-color: #FFFFFF;
+	padding-bottom: 35px;
+}
+.column {
+	width: 50%;
+	text-align: center;
+	padding-top: 30px;
+	float: left;
+}
+.intro .column h3 {
+	color: #FFFFFF;
+	text-align: center;
+}
+.intro .column p {
+	color: #FFFFFF;
+}
+.cards {
+	width: 100%;
+	height: auto;
+	max-width: 400px;
+	max-height: 200px;
+	opacity: 0.8;
+}
+.intro .column p {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	line-height: 25px;
+	font-weight: lighter;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 80%;
+	margin-top: 4%;
+}
+.button {
+	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	background-color: #B3B3B3;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+}
+.button:hover {
+	background-color: #6DC7D0;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.copyright {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #717070;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
+footer {
+	background-color: #B3B3B3;
+	padding-top: 60px;
+	padding-bottom: 60PX;
+}
+.intro {
+	display: inline-block;
+	background-color: #6DC7D0;
+}
+.profile {
+	width: 50%;
+}
+.gallery .thumbnail .tag {
+	color: #5D5E5D;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/* Mobile */
+@media (max-width: 320px) {
+.logo {
+	width: 100%;
+	text-align: center;
+	margin-top: 13px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.text_column {
+	width: 100%;
+	text-align: justify;
+	padding: 0;
+}
+.intro .column p {
+	width: 80%;
+	margin-left: 0px;
+}
+.text_column {
+	padding-left: 20px;
+}
+.thumbnail {
+	width: 100%;
+}
+.column {
+	width: 100%;
+	margin-top: 0px;
+}
+.hero_header {
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 22px;
+	text-align: center;
+}
+}
+
+/* Small Tablets */
+@media (min-width: 321px)and (max-width: 767px) {
+.logo {
+	width: 100%;
+	text-align: center;
+	margin-top: 13px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.text_column {
+	width: 100%;
+	text-align: left;
+	padding: 0;
+}
+.thumbnail {
+	width: 100%;
+}
+.column {
+	width: 100%;
+	margin-top: 0px;
+}
+.thumbnail {
+	width: 100%;
+}
+.text_column {
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 90%;
+}
+
+select {
+    appearance: none;
+    outline: 0;
+    background: green;
+    background-image: none;
+    width: 100%;
+    height: 100%;
+    color: black;
+    cursor: pointer;
+    border:1px solid black;
+    border-radius:3px;
+}
+.select {
+    position: relative;
+    display: block;
+    width: 15em;
+    height: 2em;
+    line-height: 3;
+    overflow: hidden;
+    border-radius: .25em;
+    padding-bottom:10px;
+
+}
+
+
+
+.column {
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.profile {
+	width: 100%;
+}
+.intro .column p {
+	width: 90%;
+	text-align: center;
+	padding-left: 0px;
+}
+}
+
+/* Small Desktops */
+@media (min-width: 768px) and (max-width: 1096px) {
+.text_column {
+	width: 100%;
+}
+.thumbnail {
+	width: 48%;
+}
+.text_column {
+	width: 90%;
+	margin: 0;
+	padding: 20px;
+}
+.intro .column p {
+	width: 80%;
+}
+}
+
+	
+	
+</style>
+</head>
+<body>
+<!-- Main Container -->
+<div class="container">
+  <!-- Header -->
+  <header class="header">
+    <h4 class="logo">SPRING RESTAURANT : DESERT SECTION</h4>
+  </header>
+  <!-- Hero Section -->
+  <section class="intro">
+    <div class="column">
+      <h3></h3>
+      <img src="static/logo1.svg" alt="" class="profile"> </div>
+    <div class="column">
+      <p>Indian sea life is amongst the richest in the world. The concept of our restaurant is to bring those wild species to the table, from your favourites to those rare varieties you don't see everyday. We head to the fish market every morning to hand pick the best for our daily changing set menus.</p>
+	  <p>We love to eat, to take our time and enjoy the flavours in a series of small dishes. Our degustation gives you the chance to do exactly that. More than a succession of plates, we offer you an experience, a connection between each dish, pulling from our seaside location in Bronte. Complete the journey with our optional matching wines.</p>
+	</div>
+
+  </section>
+
+
+</div>
+  <div style="text-align:center;">
+    <footer id="contact2">
+    <form action="/home" method="post">
+      <button input type="submit" class="button" name="b" value="drinks"style="text-align:center;">Desert</button>
+        <button input type="submit" class="button" name="b" value="desert" style="text-align:center;">Drinks</button>
+    </form>
+  </footer>
+</div>
+  <!-- Stats Gallery Section -->
+  <div class="gallery">
+    <div class="thumbnail"> <a href="#" name="1"><img src="static/hoso.svg" alt="" width="2000" class="cards"/></a>
+      <h4>HOTDOG & SODA</h4>
+        <form action="/setcookie" method="post">
+      <button input type="submit" class="button" name="b" value="HOTDOG & SODA"style="text-align:center;">Order</button>
+        </form>
+    </div>
+    <div class="thumbnail"> <a href="#" name="2"><img src="static/posh.svg" alt="" width="2000" class="cards"/></a>
+      <h4>POPCORN & SHAKE</h4>
+        <form action="/setcookie" method="post">
+      <button input type="submit" class="button" name="b" value="POPCORN & SHAKE"style="text-align:center;">Order</button>
+        </form>
+    </div>
+    <div class="thumbnail"> <a href="#"name="3"><img src="static/icec.svg" alt="" width="2000" class="cards"/></a>
+      <h4>CHOCOLATE ICECREAM</h4>
+        <form action="/setcookie" method="post">
+      <button input type="submit" class="button" name="b" value="CHOCOLATE ICECREAM"style="text-align:center;">Order</button>
+        </form>
+    </div>
+    <div class="thumbnail"> <a href="#" name="4"><img src="static/sandwich.svg" alt="" width="2000" class="cards"/></a>
+      <h4>BAGEL SANDWICH</h4>
+        <form action="/setcookie" method="post">
+      <button input type="submit" class="button" name="b" value="BAGEL SANDWICH"style="text-align:center;">Order</button>
+        </form>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+<div style="text-align:center;">
+    <footer id="contact">
+      <p class="hero_header">CART</p>
+    <form action="/cart" method="post">
+      <button input type="submit" class="button" name="b" value="logout"style="text-align:center;">Goto CART</button>
+    </form>
+    <p class="hero_header">Want to EXIT?</p>
+    <form action="/home" method="post">
+      <button input type="submit" class="button" name="b" value="logout"style="text-align:center;">Log Out</button>
+    </form>
+  </footer>
+</div>
+<!-- Main Container Ends -->
+</body>
+</html>
